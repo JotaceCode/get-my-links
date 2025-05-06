@@ -24,7 +24,7 @@
         mask-radial-from-30%
         mask-radial-to-65%
         ">
-        <h1 class="w-fit mx-auto px-2 py-1 border-2 border-sky-400 rounded-full
+        <h1 class="w-fit mx-auto px-2 py-1 border-1 border-sky-400 rounded-full
         text-center text-sky-400 
         bg-black/60
         text-shadow-sm
@@ -33,19 +33,21 @@
         hover:scale-125
         flex items-center justify-center
         gap-2
+        -mt-15
         ">
-            @Jotac.dev <img src="./assets/check.svg" alt="check" width="12"  class="inline-block">
+            @Jotac.dev <img src="./assets/check.svg" alt="check" width="22"  class="inline-block ">
         </h1>
+        <h2 class="text-center text-[2.5rem] font-bold font-bold text-white">José Carlos Vélez Seisdedos</h2>
     </header>
     <main>
         <div class="w-fit mx-auto h-fit px-2 py-2 flex gap-2 ">
-            <a href="https://www.twitch.tv/junerac" target="_blank" class="
+            <a href="https://www.twitch.tv/junerac92" target="_blank" class="
             flex items-center justify-center
             h-12 w-12 rounded-full
             bg-gradient-to-tr from-gray-200 to-gray-800
-            hover:bg-gradient-to-tr from-gray-700 to-gray-600
             transition-all duration-300
-            hover:scale-150">
+            hover:bg-gradient-to-tr from-gray-700 to-gray-600
+            hover:scale-110">
                 <svg width="34" height="34">
                     <use xlink:href="./assets/twitch.svg#twitch"></use>
                 </svg>
@@ -54,7 +56,7 @@
                 flex items-center justify-center
             bg-white
             transition-all duration-300
-            hover:scale-150">
+            hover:scale-110">
                 <svg width="34" height="34">
                     <use xlink:href="./assets/twitch.svg#threads"></use>
                 </svg>
@@ -71,7 +73,7 @@
             h-12 w-12 rounded-full
             bg-gradient-to-tr from-yellow-400 to-purple-900
             transition-all duration-300
-            hover:scale-150">
+            hover:scale-110">
                 <img width="34" height="34" src="./assets/insta.svg">
                 </img>
             </a>
@@ -80,28 +82,91 @@
             h-12 w-12 rounded-full
             bg-white
             transition-all duration-300
-            hover:scale-150">
+            hover:scale-110">
                 <img width="34" height="34" src="./assets/linkedin2.svg">
                 </img>
             </a>
         </div>
-        <h2 class="text-center text-2xl font-bold text-sky-200">¡Hola!</h2>
-        <p class="text-center text-lg font-semibold text-sky-200">Soy JotacCode, un desarrollador web y streamer.</p>
-        <div class="mx-auto grid grid-cols-3 grid-rows-3 gap-2 w-[90%] h-[300px] mt-10">
-            <div class="rounded-md bg-gradient-to-tr from-blue-600 to-blue-950 w-full h-full">
+        <p class="w-[90%] text-lg text-center mt-10">Desarrollador Junior con pasión por el diseño, seguramente ojeando anime :3</p>
+        <p class="w-[90%] text-xl text-center mt-2">Get my links</p>
+        <!-- Grid  -->
+        <div class="mx-auto grid grid-cols-3 grid-rows-2 gap-2 w-[90%] h-[200px] mt-10">
+            <div class="relative rounded-md overflow-hidden 
+            bg-gradient-to-br from-pink-600 via-pink-400 to-pink-200 w-full h-full 
+            flex items-center justify-center
+            col-span-2
+            transition-all duration-300
+            hover:scale-105">
+
+                <p class="text-sm absolute top-1 left-1 border-1 px-1 rounded-full z-4">Visita mi canal</p>
+                <svg class="absolute -bottom-4 -left-4 -rotate-18 size-24" >
+                    <use xlink:href="./assets/twitch.svg#twitch"></use>
+                </svg> 
                 <!-- Recurso -->
-                
+                <p class="
+                text-[1.5rem]
+                md:text-[2.5rem]
+                font-bold
+                z-4
+                ">@Junerac92</p>
             </div>
-            <div class="rounded-md bg-gradient-to-tr from-blue-600 to-blue-950 col-span-2 w-full h-full"></div>
-            <div class="rounded-md bg-gradient-to-tr from-blue-600 to-blue-950 col-span-2 w-full h-full"></div>
-            <div class="rounded-md bg-gradient-to-tr from-blue-600 to-blue-950 w-full h-full"></div>
-            <div class="rounded-md bg-gradient-to-tr from-blue-600 to-blue-950 w-full h-full"></div>
-            <div class="rounded-md bg-gradient-to-tr from-blue-600 to-blue-950 w-full h-full"></div>
-            <div class="rounded-md bg-gradient-to-tr from-blue-600 to-blue-950 w-full h-full"></div>
+            <div class="rounded-md 
+            bg-gradient-to-br from-gray-600 via-gray-400 to-gray-200 
+            relative overflow-hidden  w-full h-full
+            flex items-center justify-center 
+            transition-all duration-300
+            hover:scale-105">
+                <p class="text-sm absolute top-1 left-1 border-1 px-1 rounded-full z-4">Github</p>
+                <svg class="absolute -bottom-2 -left-1 rotate-18 size-16 invert" >
+                    <use xlink:href="./assets/twitch.svg#github"></use>
+                </svg> 
+                <p class="
+                text-[1rem]
+                font-bold
+                z-4
+                ">@JotaceCode</p>
+            </div>
+            <div class="rounded-md relative overflow-hidden
+            bg-gradient-to-br from-orange-300 via-orange-400 to-orange-600 
+            col-span-2 w-full h-full
+            flex items-center justify-center
+            transition-all duration-300
+            hover:scale-105">
+            <p class="text-sm absolute top-1 left-1 border-1 px-1 rounded-full z-4">Visita mi portafolio</p>
+                <svg class="absolute -bottom-2 -left-1 rotate-8 size-26" >
+                    <use xlink:href="./assets/twitch.svg#html5"></use>
+                </svg> 
+                <p class="
+                text-[1.5rem]
+                md:text-[2.5rem]
+                font-bold
+                z-4
+                ">HTML y CSS</p>
+
+
+            </div>
+            <div class="rounded-md 
+            bg-gradient-to-br from-teal-600 via-teal-400 to-teal-200 
+            w-full h-full relative overflow-hidden
+            flex items-center justify-center
+            transition-all duration-300
+            hover:scale-105">
+            <p class="text-sm absolute top-1 left-1 border-1 px-1 rounded-full z-4">Nodejs Expert!</p>
+
+                <svg class="absolute -bottom-2 -left-1 rotate-8 size-26" >
+                    <use xlink:href="./assets/twitch.svg#javascript"></use>
+                </svg> 
+                <p class="
+                text-[1rem]
+                font-bold
+                z-4
+                "></p>
+            </div>
         </div>
 
+            
     </main>
-    <footer class="text-center mt-20 mb-2">
+    <footer class="text-center mt-20 mb-2 text-junerac-titulo">
         Desarrollado por JotacCode con ❤️
     </footer>
 </body>
